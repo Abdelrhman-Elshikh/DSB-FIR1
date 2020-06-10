@@ -10,8 +10,8 @@ h.append(round(gama/math.pi,3))
 for i in range(1, (n+1)):
     h.append(round(math.sin(i*gama)/(i*3.14) ,3))
 print("\n h = ", h)
-x = float(input("first factor "))
-y = float(input("second factor "))
+x = float(input("first factor of window"))
+y = float(input("second factor of window"))
 w=[]
 w.append(1)
 for i in range(1, (n+1)):
